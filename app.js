@@ -141,9 +141,14 @@ if (num > 0){
 
 // Q4
 
-for (let numbers = 0; numbers < 100; numbers++){
-  console.log(numbers)
+let numbers = [];
+
+for (let i = 0; i < 100; i++) {
+  numbers[i] = i;
 }
+
+console.log(numbers);
+
 
 // Q5
 
