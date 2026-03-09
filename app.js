@@ -47,9 +47,16 @@ console.log(playerList[1].favorites[1]);
 
 // Q5
 
-let avg = (playerList[0].age + playerList[1].age + playerList[2].age) / 3;
+let sum = 0;
+
+for (let i = 0; i < playerList.length; i++) {
+  sum += playerList[i].age;
+}
+
+let avg = sum / playerList.length;
 
 console.log(avg);
+
 
 // Q6
 function sayHello(){
