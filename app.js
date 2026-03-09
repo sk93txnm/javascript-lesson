@@ -43,7 +43,7 @@ let playerList = [
   },
 ];
 
-console.log(playerList[1].favorites);
+console.log(playerList[1].favorites[1]);
 
 // Q5
 
